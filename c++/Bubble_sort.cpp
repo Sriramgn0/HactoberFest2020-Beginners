@@ -26,7 +26,7 @@ void bubbleSort(int *array, int size) {
 }
 int main() {
    int n;
-   cout << "Enter the number of elements: ";
+   cout << "Enter the number of elements for sorting: ";
    cin >> n;
    int arr[n];     //create an array with given number of elements
    cout << "Enter elements:" << endl;
@@ -36,6 +36,6 @@ int main() {
    cout << "Array before Sorting: ";
    display(arr, n);
    bubbleSort(arr, n);
-   cout << "Array after Sorting: ";
+   cout << "Array after Sorting : ";
    display(arr, n);
 }
